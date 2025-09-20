@@ -15,6 +15,14 @@
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.13"
   },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
+    }
+  ]
+  
   "devDependencies": {
     "@eslint/js": "^9.35.0",
     "@types/react": "^19.1.13",
