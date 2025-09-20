@@ -21,7 +21,7 @@
       "use": "@vercel/static-build",
       "config": { "distDir": "dist" }
     }
-  ]
+  ],
   
   "devDependencies": {
     "@eslint/js": "^9.35.0",
